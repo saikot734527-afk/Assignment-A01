@@ -1,0 +1,163 @@
+* {
+  margin: 0%;
+  font-family: inherit;
+}
+
+.navbar {
+  background-color: white;
+}
+nav {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  max-width: 1280px;
+  align-items: center;
+  padding: 15px;
+}
+nav ul {
+  display: flex;
+  margin: auto;
+  gap: 24px;
+}
+nav ul li {
+  list-style-type: none;
+  font-size: 16px;
+}
+li a {
+  text-decoration: none;
+  color: #575757;
+}
+.common-button {
+  padding: 12px 25px;
+  background-color: #1d4ed8;
+  color: white;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+/*end Navbar*/
+.hero-parent {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./assets/banner.jpg");
+  background-size: cover;
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-child {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero-child h1 {
+  color: aliceblue;
+  font-size: 80px;
+  margin-top: 10%;
+}
+.hero-child p {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 250px;
+  margin-top: 10px;
+}
+.hero-button {
+  padding: 15px 60px;
+  background-color: #1d4ed8;
+  color: white;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+/* meet Speakar section*/
+.speaker {
+  max-width: 1280px;
+  margin: auto;
+}
+.speaker h1 {
+  margin-top: 80px;
+  margin-bottom: 56px;
+  text-align: center;
+}
+.card-one {
+  border: solid 0.5px;
+  border-color: #c5c5c5;
+  border-radius: 15px;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.card-one img {
+  width: 100%;
+  display: block;
+  border-radius: 10px 10px 0 0;
+}
+.card-one h4 {
+  color: blue;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  font-size: 12px;
+  padding-top: 5px;
+}
+.card-one p {
+  margin-top: 5px;
+  color: #575757;
+  margin-left: 15px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.card-one h3 {
+  font-size: 20px;
+  color: #0d1b2a;
+  margin-left: 15px;
+}
+/*pricing section*/
+
+.pricing {
+  max-width: 1280px;
+  margin: auto;
+  margin-top: 150px;
+}
+.pricing h1 {
+  text-align: center;
+  font-size: 48px;
+}
+.pricing p {
+  text-align: center;
+  margin-bottom: 48px;
+}
+.Pricing-Container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.common-pricing {
+  border: solid 1px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 10px;
+}
+.common-pricing h3 {
+  font-size: 13px;
+}
+.common-pricing h2 {
+  font-size: 44px;
+}
+.common-pricing h4 {
+  font-size: 13px;
+}
+hr {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
