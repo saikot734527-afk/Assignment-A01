@@ -23,6 +23,9 @@ nav ul li {
   list-style-type: none;
   font-size: 16px;
 }
+li a:hover {
+  color: #1d4ed8;
+}
 li a {
   text-decoration: none;
   color: #575757;
@@ -74,6 +77,10 @@ li a {
   border-radius: 12px;
   border: none;
   cursor: pointer;
+}
+.hero-button:hover {
+  background-color: #ffffff;
+  color: #1d4ed8;
 }
 /* meet Speakar section*/
 .speaker {
@@ -185,6 +192,10 @@ hr {
   cursor: pointer;
   font-size: 14px;
 }
+.pricing-button:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
 /* highlight card*/
 .highlight-pricing {
   border: solid 1px;
@@ -196,6 +207,7 @@ hr {
   border-color: #d8d8d8;
   background-color: #0d1b2a;
 }
+
 .highlight-pricing h3 {
   font-size: 13px;
   color: #5638ff;
@@ -235,24 +247,9 @@ hr {
   font-size: 14px;
   background-color: #1d4ed8;
 }
-/*footer*/
-footer {
-  background-color: #0d1b2a;
-  padding: 60px;
-}
-.footer-contant {
-  max-width: 1280px;
-  display: flex;
-  margin: auto;
-  justify-content: space-between;
-}
-.footer-link ul {
-  display: flex;
-  gap: 24px;
-}
-.footer-link ul li {
-  list-style: none;
-  color: white;
+.hightlight-button:hover {
+  background-color: #ffffff;
+  color: #007bff;
 }
 
 /*FAQ */
@@ -320,4 +317,57 @@ footer {
   margin-top: 18px;
   color: #6b7280;
   line-height: 1.8;
+}
+
+/*footer*/
+footer {
+  background-color: #0d1b2a;
+  padding: 60px;
+}
+.footer-contant {
+  max-width: 1280px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+.footer-link ul {
+  display: flex;
+  gap: 24px;
+}
+.footer-link ul li {
+  list-style: none;
+  color: white;
+}
+.footer-up {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.divider {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 1280px;
+  margin-left: 250px;
+  border-color: #8b8b8b;
+}
+.icon {
+  display: flex;
+  gap: 20px;
+}
+.icon i {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #dcdcdc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.icon i:hover {
+  background-color: #1d4ed8;
 }
